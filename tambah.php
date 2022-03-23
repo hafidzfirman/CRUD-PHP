@@ -39,7 +39,7 @@ if(isset($_POST["submit"]) ){
 <body>
     <h1>Tambah data Baru</h1>
 
-    <form action="" method="post" enctype="multipart/form-data">
+    <form action="/index.php" method="post" enctype="multipart/form-data">
         <ul>
             <li>
                 <label for="nis">NIS :</label>
